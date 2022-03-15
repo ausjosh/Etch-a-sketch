@@ -1,0 +1,17 @@
+#container{
+    display: grid;
+    border: 1px;
+    border-color: black;
+}
+
+
+#grid {
+    border: 1px solid gray;
+    min-width: 10px;
+    min-height: 20px;
+    display: inline-block;
+  }
+
+  #div{
+      border:1px solid gray;
+  }

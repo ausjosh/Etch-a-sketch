@@ -9,27 +9,33 @@
 
 
 #grid {
-    height: 352px;
-    width: 352px;
+    height: 320px;
+    width: 320px;
     border: 3px solid yellow;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    flex-grow: 0;
+    flex-shrink: 0;
     
     
     ;
     
   }
 
-  div{
+  .gridDivs{
       display: flex;
-      height: 20px;
-      width: 20px;
-
+      flex-grow: 2;
+      flex-shrink: 1;
       align-self: center;
-      border:1px solid black;
+      
   }
 
   #cell{
       border:1px green;
+  }
+/*hover effect to change div background color*/
+  /*.gridDivs:hover {
+    background-color: darkblue;
+   
   }
